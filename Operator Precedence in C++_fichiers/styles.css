@@ -1,0 +1,93 @@
+div#main
+{
+	margin: 5px;
+	width: 500px; /* 755px; */
+}
+table,tbody,tr,td,div
+{
+	margin: 0px;
+	padding: 0px;
+}
+h1,p,div,th,td
+{
+	font-family: arial;
+}
+.code,.operand /* bullet */
+{
+	font-family: courier;
+}
+.level>a
+{
+	font-size: small;
+}
+.cat1,.cat2,.cat3,.cat4,.cat5,.cat6,.note
+{
+	margin: 1px;
+	padding: 0px 2px;
+	display: inline;
+}
+.cat1,.cat2,.cat3,.cat4,.cat5,.cat6
+{
+	font-family: courier;
+	border: 1px solid grey;
+}
+th,td
+{
+	padding: 4px;
+}
+
+.cat1	{background-color: rgb(216,233,205);}
+.cat2	{background-color: rgb(210,231,232);}
+.cat3	{background-color: rgb(222,218,236);}
+.cat4	{background-color: rgb(241,217,232);}
+.cat5	{background-color: rgb(250,230,218);}
+.cat6		{background-color: rgb(234,228,220);}
+/* try desaturating the following a bit
+.arithmetic	{border-color: rgb(108,116,102);}
+.bitwise	{border-color: rgb(105,115,116);}
+.relational	{border-color: rgb(111,109,118);}
+.logical	{border-color: rgb(120,108,116);}
+.ptrMember	{border-color: rgb(125,115,109);}
+.other		{border-color: rgb(117,114,110);}
+*/
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table,th,td
+{
+	border: 1px solid black;
+}
+td>ul,th>ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+tr.ltr
+{
+	background-color: white;
+}
+tr.rtl
+{
+	background-color: white;
+}
+th,td.level
+{
+	background-color: rgb(240,240,242);
+}
+td.level
+{
+	text-align: right;
+}
+th
+{
+	text-align: center;
+	line-height: 150%;
+}
+.rightAligner
+{
+	text-align: right;
+}
+
